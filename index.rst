@@ -4,12 +4,6 @@
 
 .. sectnum::
 
-.. note::
-
-   **This technote is a work in progress.**
-
-   Description of technote
-
 Introduction
 ============
 
@@ -147,7 +141,7 @@ As shown in the diagram above, there are 2 optional services the project may be 
 
 .. figure:: /_static/expressway.JPG
     :name: Expressway
-    :width: 800 px
+    :width: 600 px
 
 Scalability
 -----------
@@ -158,7 +152,7 @@ When adding more capacity to the system management is a factor to consider and t
 
 .. figure:: /_static/cluster.JPG
     :name: Cluster
-    :width: 800 px
+    :width: 600 px
 
 Design Considerations
 ---------------------
@@ -185,7 +179,7 @@ As briefly mentioned in section 3.3, redundancy is achieved by adding more call 
 
 .. figure:: /_static/redundancy.JPG
     :name: Redundancy
-    :width: 400 px
+    :width: 600 px
 
 These redundancy schemes are facilitated by the built-in registration failover mechanism within the CUCM cluster architecture, which enables endpoints to re-register to a backup call processing subscriber node when the endpoint's primary call processing subscriber node fails. The registration failover mechanism can achieve failover rates for Skinny Client Control Protocol (SCCP) IP phones of approximately 125 registrations per second. The registration failover rate for Session Initiation Protocol (SIP) phones is approximately 40 registrations per second.
 
