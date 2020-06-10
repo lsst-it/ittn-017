@@ -5,17 +5,11 @@ Acronym Description
 +--------+----------------------------------------------------+
 | Term   | Meaning                                            |
 +========+====================================================+
-| ACS    | Access Control Service                             |
-+--------+----------------------------------------------------+
 | AD     | Active Directory                                   |
-+--------+----------------------------------------------------+
-| AP     | Access Point                                       |
 +--------+----------------------------------------------------+
 | AURA   | Associated Universities for Research in Astronomy  |
 +--------+----------------------------------------------------+
-| CAPWAP | Control and Provisioning for Wireless Access Point |
-+--------+----------------------------------------------------+
-| CCI    | Co-Channel Interference                            |
+| BE6K   | Business Edition 6000                              |
 +--------+----------------------------------------------------+
 | CIMC   | Cisco Integrated Management Controller             |
 +--------+----------------------------------------------------+
@@ -25,7 +19,13 @@ Acronym Description
 +--------+----------------------------------------------------+
 | CTIO   | Cerro Tololo Inter-American Observatory            |
 +--------+----------------------------------------------------+
+| CUC    | Cisco Unity Connection                             |
++--------+----------------------------------------------------+
+| CUCM   | Cisco Unified Call Manager                         |
++--------+----------------------------------------------------+
 | DB     | Database                                           |
++--------+----------------------------------------------------+
+| H.323  | Session Protocol from ITU-T                        |
 +--------+----------------------------------------------------+
 | HA     | High Availability                                  |
 +--------+----------------------------------------------------+
@@ -35,13 +35,13 @@ Acronym Description
 +--------+----------------------------------------------------+
 | ICD    | Interface Control Document                         |
 +--------+----------------------------------------------------+
-| IEEE   |Institute of Electrical and Electronics Engineers   |
+| IEEE   | Institute of Electrical and Electronics Engineers  |
++--------+----------------------------------------------------+
+| IM     | Instant Messaging                                  |
 +--------+----------------------------------------------------+
 | ISE    | Identity Service Engine                            |
 +--------+----------------------------------------------------+
 | IT     | Information Technology                             |
-+--------+----------------------------------------------------+
-| LCMI   | Least capable, most important                      |
 +--------+----------------------------------------------------+
 | LDAP   | Lightweight Directory Access Protocol              |
 +--------+----------------------------------------------------+
@@ -49,7 +49,7 @@ Acronym Description
 +--------+----------------------------------------------------+
 | LSST   | Large Synoptic Survey Telescope                    |
 +--------+----------------------------------------------------+
-| MBR    | Minimum Basic Rate                                 |
+| MCU    | Multi Control Unit                                 |
 +--------+----------------------------------------------------+
 | MIB    | Management Information Base                        |
 +--------+----------------------------------------------------+
@@ -59,27 +59,25 @@ Acronym Description
 +--------+----------------------------------------------------+
 | OOB    | Out of band                                        |
 +--------+----------------------------------------------------+
-| PSK    | Pre-Shared Key                                     |
+| PSTN   | Public Switched Telephone Network                  |
 +--------+----------------------------------------------------+
 | RADIUS | Remote Authentication Dial-In User Service         |
 +--------+----------------------------------------------------+
-| RRM    | Radio resource management                          |
+| RTP    | Real-Time Protocol                                 |
 +--------+----------------------------------------------------+
-| RSSI   | Received Signal Strength Indicator                 |
+| SIP    | Session Initiation Protocol                        |
 +--------+----------------------------------------------------+
 | SNMP   | Simple Network Management Protocol                 |
 +--------+----------------------------------------------------+
-| SNR    | Signal to noise ratio                              |
+| SRTP   | Secure Real-Time Protocol                          |
 +--------+----------------------------------------------------+
 | SSH    | Secure Shell                                       |
 +--------+----------------------------------------------------+
-| SSID   | Service Set Identifier                             |
-+--------+----------------------------------------------------+
 | TACACS | Terminal Access Controller Access Control System   |
 +--------+----------------------------------------------------+
+| TDM    | Time Division Multiplexing                         |
++--------+----------------------------------------------------+
+| TLS    | Transport Layer Security                           |
++--------+----------------------------------------------------+
 | VLAN   | Virtual local area network                         |
-+--------+----------------------------------------------------+
-| WLC    | Wireless Lan Controller                            |
-+--------+----------------------------------------------------+
-| WPA    | Wi-Fi Protected Access                             |
 +--------+----------------------------------------------------+
