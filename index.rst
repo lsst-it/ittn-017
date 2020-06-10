@@ -129,14 +129,14 @@ Proposed Network Architecture
 Logical Design
 --------------
 
-.. figure:: /_static/VoIP-phydiag -HLD-Logical.jpg
+.. figure:: /_static/VoIP-phydiag%20-HLD-Logical.jpg
     :name: Logical Design
     :width: 800 px
 
 Physical Design
 ---------------
 
-.. figure:: /_static/VoIP-phydiag -HLD-Physical.jpg
+.. figure:: /_static/VoIP-phydiag%20-HLD-Physical.jpg
     :name: Physical Design
     :width: 800 px
 
@@ -147,7 +147,7 @@ As shown in the diagram above, there are 2 optional services the project may be 
 
 .. figure:: /_static/expressway.JPG
     :name: Expressway
-    :width: 600 px
+    :width: 800 px
 
 Scalability
 -----------
@@ -158,7 +158,7 @@ When adding more capacity to the system management is a factor to consider and t
 
 .. figure:: /_static/cluster.JPG
     :name: Cluster
-    :width: 600 px
+    :width: 800 px
 
 Design Considerations
 ---------------------
@@ -173,10 +173,10 @@ Design Considerations
 * IP phones must be configured to mark their traffic at the origin with DSCP EF and if not available, the closest switch must mark the voice traffic on its behalf. The maximum acceptable parameters for audio quality is 150ms one way, 300ms round-trip, with up to 30ms of jitter. This must be warranted internally using QoS matching the EF marked packets to the priority queues of each switch in the path. These parameters cannot be warranted outside our network and that's acceptable, as it's outside our administrative control.
 * If from the CUCM to the PSTN gateway (CTIO CISS CME) the above-mentioned parameters are okay but still audio quality issues are detected with landline and mobile calls, Telefonica must be contacted for support through the VoIP responsible at NOIR Lab.
 * Call tiers must be implemented for controlled access to VoIP resources. Each extension and/or phone must be assigned one of these Tiers depending on the use-case. Observe caution on the assignation of tiers 2 and 3, as mobile call rates may be high and the project is billed for each PSTN call. Ask for advice from the admins team if needed.
-  * Tier 0: Only internal calls.
-  * Tier 1: Internal and landline calls.
-  * Tier 2: Internal, landline, and mobile calls
-  * Tier 3: All calls.
+ * Tier 0: Only internal calls.
+ * Tier 1: Internal and landline calls.
+ * Tier 2: Internal, landline, and mobile calls
+ * Tier 3: All calls.
 
 Redundancy and High-Availability
 --------------------------------
