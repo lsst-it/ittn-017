@@ -32,8 +32,8 @@ Assumptions and Caveats
 
 Related Documents
 -----------------
-* LSE-78 LSST Observatory Network Design
-* LSE-309 Summit to Base ITC Design
+- `LSE-78 LSST Observatory Network Design <https://ls.st/LSE-78>`_
+- `LSE-309 Summit to Base ITC Design <https://ls.st/LSE-309>`_
 
 Technical Solution Overview
 ============
@@ -55,7 +55,7 @@ As the Rubin Observatory telescope building and the new base facilities are read
 
 Chosen solution
 ---------------
-The decision rationale was a technical analysis of the project requirements by several vendors and distributors held in the 2015/2016 timeframe by the Tiger Team, out of which Cisco Systems was the chosen vendor for all the LAN network infrastructure, including VoIP, from which its Cisco Unified Communications Manager (CUCM) and Cisco IP phones, packaged in a pre-deployed solution branded as Cisco Business Edition 6000 (BE6K) running on a VMware ESXi hypervisor, was the specific technical solution chosen for the project.
+The decision rationale was a technical analysis of the project requirements by several vendors and distributors held in the 2015/2016 timeframe by the Tiger Team, out of which `Cisco Systems was the chosen vendor for most of the LAN, Datacenter, Wi-Fi and VoIP infrastructure <https://confluence.lsstcorp.org/download/attachments/41790141/Cisco%20ACI%20justification%20v2.docx?api=v2?>`_, from which its Cisco Unified Communications Manager (CUCM) and Cisco IP phones, packaged in a pre-deployed solution branded as Cisco Business Edition 6000 (BE6K) running on a VMware ESXi hypervisor, was the specific technical solution chosen for the project.
 
 On a high-level, the Cisco Business Edition 6000 (BE6K) solution provides pre-deployed virtual machines for Cisco Unified Communications Manager (CUCM), IM and Presence Service, Cisco Unity Connection (CUC), Cisco Prime Collaboration Provisioning and Cisco Paging Server, out of which CUCM is the main VoIP system that will enable the IP phones to register and make voice calls between them. The CUCM service handles signaling for calling to the outside using direct SIP or H323 trunks, or using additional services such as Cisco Unified Border Element (CUBE) which is a dedicated voice gateway that bridges separate VoIP networks, which for our use-case would be the rest of the AURA projects and the PSTN. Videoconferencing is also supported by the BE6K using the Cisco Telepresence Server virtual machine, but as the project already uses BlueJeans as its standard videoconferencing software, no efforts will be made to enable videoconferencing using the BE6K, and any Cisco videoconferencing system will only be used to connect to the BlueJeans rooms provided by their cloud Multi Control Unit (MCU) system.
 
